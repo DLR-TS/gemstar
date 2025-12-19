@@ -11,7 +11,7 @@ GEMSTAR combines exisiting simulation tools in a co-simulation and uses [OSI](ht
 It is designed to be tailored to your project specific needs by integration of [SUMO](https://eclipse.dev/sumo/), [esmini](https://esmini.github.io/) and more by using the [Game Feature Plugin](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-features-and-modular-gameplay-in-unreal-engine) system.
 Future updates will add new features: OSI Playback, OpenDrive map import, Traffic Lights, Radar, Interfaces to [ROS2](https://ros.org/) and [OSMP](https://www.asam.net/standards/detail/osi/).
 
-<img src="documentation/images/Plugin_Architecture.png" alt="GEMSTAR is based on several Unreal Engine 5 plugins." width="600"/>
+<img src="Documentation/images/Plugin_Architecture.png" alt="GEMSTAR is based on several Unreal Engine 5 plugins." width="600"/>
 
 # Use Cases
 
@@ -19,7 +19,7 @@ Future updates will add new features: OSI Playback, OpenDrive map import, Traffi
 - Selecting the optimal infrastructure for automated vehicles.
 - Testing planned sensor configurations.
 
-<img src="documentation/images/Simulation_Example.png" alt="GEMSTAR simulates different sensors on vehicles with OSI messages as a communication standard." width="600"/>
+<img src="Documentation/images/Simulation_Example.png" alt="GEMSTAR simulates different sensors on vehicles with OSI messages as a communication standard." width="600"/>
 
 # Getting started
 
