@@ -1,0 +1,57 @@
+[submodule "Plugins/gemstar_interfaces"]
+	path = Plugins/gemstar_interfaces
+	url = https://github.com/DLR-TS/gemstar_interfaces.git
+[submodule "Plugins/GameFeatures/esmini"]
+	path = Plugins/GameFeatures/esmini
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_esmini_plugin.git
+[submodule "Plugins/GameFeatures/ue_osi_plugin"]
+	path = Plugins/GameFeatures/ue_osi_plugin
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_osi_plugin.git
+[submodule "Plugins/GameFeatures/ue_camerasensor_feature"]
+	path = Plugins/GameFeatures/ue_camerasensor_feature
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_camerasensor_feature.git
+[submodule "Plugins/ue_metalidar_plugin"]
+	path = Plugins/GameFeatures/ue_metalidar_plugin
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/UE_MetaLidar_plugin
+[submodule "Plugins/UDP-Unreal"]
+	path = Plugins/UDP-Unreal
+	url = https://github.com/getnamo/UDP-Unreal.git
+[submodule "Plugins/GameFeatures/UE_sumo_plugin"]
+	path = Plugins/GameFeatures/UE_sumo_plugin
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/UE_sumo_plugin.git
+[submodule "Plugins/ROSIntegration"]
+	path = Plugins/GameFeatures/ROSIntegration
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ROSIntegration.git
+[submodule "Plugins/GameFeatures/ue_trafficlight_feature"]
+	path = Plugins/GameFeatures/ue_trafficlight_feature
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_trafficlight_feature.git
+[submodule "InternalPlugins/ue_smarttrafficlights"]
+	path = InternalPlugins/ue_smarttrafficlights
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_smarttrafficlights.git
+[submodule "Plugins/GameFeatures/ue_sim_vehicles"]
+	path = Plugins/GameFeatures/ue_sim_vehicles
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_sim_vehicles.git
+[submodule "Plugins/GameFeatures/ue_osivisualizer_feature"]
+	path = Plugins/GameFeatures/ue_osivisualizer_feature
+	url = https://gitlab.dlr.de/gitlab-tes-val/plugin-test-chambers/ostar/ue_osivisualizer_feature.git
+[submodule "Plugins/GameFeatures/ue_lidar_feature"]
+	path = Plugins/GameFeatures/ue_lidar_feature
+	url = https://github.com/DLR-TS/ue_lidar_feature.git
+[submodule "Plugins/GameFeatures/ue_sumo_feature"]
+	path = Plugins/GameFeatures/ue_sumo_feature
+	url = https://github.com/DLR-TS/ue_sumo_feature.git
+[submodule "Plugins/GameFeatures/ue_esmini_feature"]
+	path = Plugins/GameFeatures/ue_esmini_feature
+	url = https://github.com/DLR-TS/ue_esmini_feature.git
+[submodule "Plugins/GameFeatures/ue_camera_feature"]
+	path = Plugins/GameFeatures/ue_camera_feature
+	url = https://github.com/DLR-TS/ue_camera_feature.git
+[submodule "Plugins/GameFeatures/ue_logger_feature"]
+	path = Plugins/GameFeatures/ue_logger_feature
+	url = https://github.com/DLR-TS/ue_logger_feature.git
+[submodule "Plugins/GameFeatures/ue_visualizer_feature"]
+	path = Plugins/GameFeatures/ue_visualizer_feature
+	url = https://github.com/DLR-TS/ue_visualizer_feature.git
+[submodule "Plugins/GameFeatures/ue_vehicle_feature"]
+	path = Plugins/GameFeatures/ue_vehicle_feature
+	url = https://github.com/DLR-TS/ue_vehicle_feature.git

@@ -1,0 +1,62 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GEMSTAR",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GameFeatures",
+			"Enabled": true
+		},
+		{
+			"Name": "ModularGameplay",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_esmini_feature",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_sumo_feature",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_camera_feature",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_vehicle_feature",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_lidar_feature",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_logger_feature",
+			"Enabled": true
+		},
+		{
+			"Name": "ue_visualizer_feature",
+			"Enabled": true
+		}
+	]
+}
