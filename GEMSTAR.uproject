@@ -32,11 +32,11 @@
 		},
 		{
 			"Name": "ue_esmini_feature",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ue_sumo_feature",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "ue_camera_feature",
