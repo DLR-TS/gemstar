@@ -36,7 +36,7 @@
 		},
 		{
 			"Name": "ue_sumo_feature",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ue_camera_feature",
