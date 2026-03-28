@@ -32,7 +32,7 @@
 		},
 		{
 			"Name": "ue_esmini_feature",
-			"Enabled": false
+			"Enabled": true
 		},
 		{
 			"Name": "ue_sumo_feature",
