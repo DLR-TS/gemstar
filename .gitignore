@@ -1,7 +1,15 @@
 Binaries
 Intermediate
+DerivedDataCache
 Saved
 Output
+Simulation
 *.sln
+*.slnx
 .vs
 .vsconfig
+UnrealLocation.json
+
+*.code-workspace
+.vscode
+.ignore

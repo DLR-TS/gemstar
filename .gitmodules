@@ -1,24 +1,42 @@
 [submodule "Plugins/gemstar_interfaces"]
 	path = Plugins/gemstar_interfaces
-	url = https://github.com/DLR-TS/gemstar_interfaces.git
+	url = ../gemstar_interfaces.git
 [submodule "Plugins/GameFeatures/ue_lidar_feature"]
 	path = Plugins/GameFeatures/ue_lidar_feature
-	url = https://github.com/DLR-TS/ue_lidar_feature.git
+	url = ../ue_lidar_feature.git
 [submodule "Plugins/GameFeatures/ue_sumo_feature"]
 	path = Plugins/GameFeatures/ue_sumo_feature
-	url = https://github.com/DLR-TS/ue_sumo_feature.git
+	url = ../ue_sumo_feature.git
 [submodule "Plugins/GameFeatures/ue_esmini_feature"]
 	path = Plugins/GameFeatures/ue_esmini_feature
-	url = https://github.com/DLR-TS/ue_esmini_feature.git
+	url = ../ue_esmini_feature.git
 [submodule "Plugins/GameFeatures/ue_camera_feature"]
 	path = Plugins/GameFeatures/ue_camera_feature
-	url = https://github.com/DLR-TS/ue_camera_feature.git
+	url = ../ue_camera_feature.git
 [submodule "Plugins/GameFeatures/ue_logger_feature"]
 	path = Plugins/GameFeatures/ue_logger_feature
-	url = https://github.com/DLR-TS/ue_logger_feature.git
+	url = ../ue_logger_feature.git
 [submodule "Plugins/GameFeatures/ue_visualizer_feature"]
 	path = Plugins/GameFeatures/ue_visualizer_feature
-	url = https://github.com/DLR-TS/ue_visualizer_feature.git
+	url = ../ue_visualizer_feature.git
 [submodule "Plugins/GameFeatures/ue_vehicle_feature"]
 	path = Plugins/GameFeatures/ue_vehicle_feature
-	url = https://github.com/DLR-TS/ue_vehicle_feature.git
+	url = ../ue_vehicle_feature.git
+[submodule "Plugins/GameFeatures/ue_radar_feature"]
+	path = Plugins/GameFeatures/ue_radar_feature
+	url = ../ue_radar_feature.git
+[submodule "Plugins/GameFeatures/ue_fmi_feature"]
+	path = Plugins/GameFeatures/ue_fmi_feature
+	url = ../ue_fmi_feature.git
+[submodule "Plugins/GameFeatures/ue_vru_feature"]
+	path = Plugins/GameFeatures/ue_vru_feature
+	url = ../ue_vru_feature.git
+[submodule "Plugins/GameFeatures/ue_raytracing_lidar_feature"]
+	path = Plugins/GameFeatures/ue_raytracing_lidar_feature
+	url = ../ue_raytracing_lidar_feature.git
+[submodule "Plugins/GameFeatures/ue_weather_effect_feature"]
+	path = Plugins/GameFeatures/ue_weather_effect_feature
+	url = ../ue_weather_effect_feature.git
+[submodule "Plugins/GameFeatures/ue_driving_area_brunswick_map_feature"]
+	path = Plugins/GameFeatures/ue_driving_area_brunswick_map_feature
+	url = ../ue_driving_area_brunswick_map_feature.git

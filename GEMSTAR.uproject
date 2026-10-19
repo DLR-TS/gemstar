@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.8",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -31,32 +31,12 @@
 			"Enabled": true
 		},
 		{
-			"Name": "ue_esmini_feature",
-			"Enabled": true
-		},
-		{
-			"Name": "ue_sumo_feature",
-			"Enabled": true
-		},
-		{
-			"Name": "ue_camera_feature",
-			"Enabled": true
-		},
-		{
-			"Name": "ue_vehicle_feature",
-			"Enabled": true
-		},
-		{
-			"Name": "ue_lidar_feature",
-			"Enabled": true
-		},
-		{
-			"Name": "ue_logger_feature",
-			"Enabled": true
-		},
-		{
-			"Name": "ue_visualizer_feature",
+			"Name": "ue_driving_practise_area_brunswick_map_feature",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Linux",
+		"Windows"
 	]
 }
