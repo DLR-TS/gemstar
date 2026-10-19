@@ -9,7 +9,7 @@ The simulation software GEMSTAR is a set of [Unreal Engine 5.8](https://www.unre
 Each plugin can be used standalone in Unreal to maximise flexibility.
 GEMSTAR combines exisiting simulation tools in a co-simulation and uses [OSI](https://www.asam.net/standards/detail/osi/) standardized messages for logging and communication.
 It is designed to be tailored to your project specific needs by integration of [SUMO](https://eclipse.dev/sumo/), [esmini](https://esmini.github.io/) and more by using the [Game Feature Plugin](https://dev.epicgames.com/documentation/en-us/unreal-engine/game-features-and-modular-gameplay-in-unreal-engine) system.
-Future updates will add new features: OSI Playback, OpenDrive map import, Traffic Lights, Radar, Interfaces to [ROS2](https://ros.org/) and [OSMP](https://www.asam.net/standards/detail/osi/).
+Future updates will add new features: OSI Playback, OpenDrive map import, Traffic Lights, Interfaces to [ROS2](https://ros.org/) and [OSMP](https://www.asam.net/standards/detail/osi/).
 
 <img src="Documentation/images/Plugin_Architecture.png" alt="GEMSTAR is based on several Unreal Engine 5 plugins." width="600"/>
 
@@ -34,10 +34,10 @@ Your hardware should be a decent x86 computer.
 
 ## Demo map
 
-The demo map is `Content/GEMSTAR.umap`.
+The demo map is located in the plugin [ue_driving_area_brunswick_map_feature](https://github.com/DLR-TS/ue_driving_area_brunswick_map_feature).
 Its scenario is configured in `Simulation/DefaultGemstar.ini` and generated during the first build.
 
-- `esmini` supplies vehicle input.
+- [ue_esmini_feature](https://github.com/DLR-TS/ue_esmini_feature) supplies vehicle input.
 - The ego vehicle uses a camera, lidar and radar.
 - The lidar SensorView is supplied to the FMI lidar detection model.
 - The visualizer consumes these three sensor streams.
@@ -47,10 +47,9 @@ Each GEMSTAR feature plugin shows their functionality in a specific feature test
 
 # Bring your own content
 
-Customize your simulation by changing the scenario, maps and sensor models.
+Customize your simulation by changing the scenario, maps and sensor models.\
 GEMSTAR is configured by using a ini file e.g. `Simulation/DefaultGemstar.ini` file.
-A combined example map is located in the Content directory.
-It shows the integration of the different plugins.
+Take a look at the submodules to see their configuration possibilities.
 
 ## Scenarios and Maps
 
@@ -70,11 +69,10 @@ Add vehicle or VRU models to your scenario in `ue_vehicle_feature` and `ue_vru_f
 
 ## FMI Sensor models
 
-Add perceptions sensor models to `ue_fmi_feature` e.g. from [ENVITED Open Source Model & Simulation Library](https://github.com/openMSL)
+Add perceptions sensor models to [ue_fmi_feature](https://github.com/DLR-TS/ue_fmi_feature) e.g. from [ENVITED Open Source Model & Simulation Library](https://github.com/openMSL)
 
 ## Third party content
-Recompile [third party binaries](Documentation/ThirdPartyLibraries.md) if needed.
-
+Recompile all [third party binaries](Documentation/ThirdPartyLibraries.md) if needed on your system.
 
 ## Bulk Mode
 Run multiple scenarios one by one, see [Bulk Mode](Documentation/BulkMode.md)
