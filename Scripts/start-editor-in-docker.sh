@@ -25,13 +25,15 @@ fi
 if docker container inspect "$CONTAINER_NAME" >/dev/null 2>&1; then
     CURRENT_IMAGE="$(docker container inspect --format '{{.Config.Image}}' "$CONTAINER_NAME")"
 
+    CURRENT_PROJECT_DIR="$(docker container inspect --format '{{range .Mounts}}{{if eq .Destination "/workspace"}}{{.Source}}{{end}}{{end}}' "$CONTAINER_NAME")"
     CURRENT_DISPLAY="$(docker container inspect --format '{{range .Config.Env}}{{println .}}{{end}}' "$CONTAINER_NAME" | sed -n 's/^DISPLAY=//p')"
     CURRENT_XAUTHORITY="$(docker container inspect --format '{{range .Mounts}}{{if eq .Destination "/tmp/.Xauthority"}}{{.Source}}{{end}}{{end}}' "$CONTAINER_NAME")"
 
     if [ "$CURRENT_IMAGE" != "$IMAGE_TAG" ] ||
+       [ "$CURRENT_PROJECT_DIR" != "$ROOT_DIR" ] ||
        [ "$CURRENT_DISPLAY" != "$DISPLAY_VALUE" ] ||
        [ "$CURRENT_XAUTHORITY" != "$XAUTHORITY_PATH" ]; then
-        printf 'Recreating container %s: image or graphical session changed.\n' "$CONTAINER_NAME"
+        printf 'Recreating container %s: image, project directory or graphical session changed.\n' "$CONTAINER_NAME"
         docker container rm --force "$CONTAINER_NAME" >/dev/null
     fi
 fi

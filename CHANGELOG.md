@@ -1,6 +1,16 @@
 # Changelog
 
-## [2.0]
+## 2.0.1
+
+### Fixed
+
+- Minor changes in ue_lidar_feature, ue_raytracing_lidar_feature and ue_sumo_feature submodules
+
+- Container project directory update triggers rebuild
+
+- Updated drawio file
+
+## 2.0
 
 ### Added
 
@@ -45,4 +55,3 @@
 - Fix order of entries in OSI SensorView
 
 - Fix loading DistanceHalfFalloff value from config 
-
