@@ -4,7 +4,11 @@
 
 ### Fixed
 
-- Minor changes in ue_lidar_feature, ue_raytracing_lidar_feature and ue_sumo_feature submodules
+- Minor changes in ue_lidar_feature, ue_raytracing_lidar_feature and gemstar_interfaces submodules
+
+- Fixed lane markings in ue_driving_practise_area_brunswick_feature
+
+- Upload linux .so for ue_sumo_feature
 
 - Container project directory update triggers rebuild
 
