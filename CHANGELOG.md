@@ -14,6 +14,12 @@
 
 - Updated drawio file
 
+- Shipping fixes for ue_sumo_feature, ue_esmini_feature and ue_vehicle_feature
+
+# Added
+
+- GemstarDefault.ini copy for shipping
+
 ## 2.0
 
 ### Added

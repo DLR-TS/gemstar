@@ -8,6 +8,7 @@
  * SPDX-License-Identifier: EPL-2.0
  */
 
+using System.IO;
 using UnrealBuildTool;
 
 public class GEMSTAR : ModuleRules
@@ -19,6 +20,9 @@ public class GEMSTAR : ModuleRules
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
+
+        string DestinationFile = Path.Combine(Target.ProjectFile.Directory.FullName, "Simulation", "DefaultGemstar.ini");
+        RuntimeDependencies.Add(DestinationFile, StagedFileType.NonUFS);
 
         // Uncomment if you are using Slate UI
         // PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
