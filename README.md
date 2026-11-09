@@ -1,7 +1,7 @@
 # GEMSTAR (GEoMetry based Sensor simulation Toolchain for Automotive and Rail research)
 
 [![DLR-TS](https://img.shields.io/badge/developed%20by-DLR%20TS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](https://www.dlr.de/en/ts/about-us/the-institute-of-transportation-systems)
-(https://zenodo.org/badge/DOI/10.5281/zenodo.14034644.svg)](https://zenodo.org/records/24080456)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24080456.svg)](https://zenodo.org/records/24080456)
 
 GEMSTAR is the GEoMetry based Sensor simulation Toolchain for Automotive and Rail research.\
 The simulation tool supports the descision process for approval of operation domain (OD) and Operational Design Domain (ODD) for automated vehicles.
